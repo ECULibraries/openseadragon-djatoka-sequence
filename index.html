@@ -1,0 +1,26 @@
+<html>
+  <head>
+     <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+     <script src="js/openseadragon.js"></script>
+     <script src="js/djtilesource.js"></script>
+  </head>
+  <body>
+     <div id="wrapper">
+        <div id="viewer">
+           <script>
+             var tiles = ["FILE1.JP2", "FILE1.JP2"];
+
+             OpenSeadragon({
+               id: "viewer",
+               prefixUrl: "images/",
+               tileSources: tiles,
+               djatokaBaseUrl: "DJATOKA BASE URL",
+               djatokaSettings: {tileSize: 256, tileOverlap: 0},
+               sequenceMode: true,
+               showRotationControl: true
+            });
+          </script>
+        </div>
+     </div>
+  </body>
+</html>
