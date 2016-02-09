@@ -3,7 +3,7 @@ Implementation of [OpenSeadragon](https://github.com/openseadragon/openseadragon
 
 ### Instructions
 Add source images to tiles array and set djatokaBaseUrl.
-```
+```javascript
 var tiles = ["FILE1.JP2", "FILE2.JP2"];
              
 OpenSeadragon({
